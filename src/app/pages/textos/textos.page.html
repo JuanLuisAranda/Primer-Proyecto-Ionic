@@ -1,0 +1,41 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>Inputs</ion-title>
+          <ion-buttons slot="start">
+            <ion-back-button defaultHref="home"></ion-back-button>
+          </ion-buttons>
+        </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div class="ion-padding">
+
+        <ion-button href="/home"
+        color="danger"
+        size="small"
+        slot="start">
+        <ion-icon  name="home"></ion-icon>
+      </ion-button>
+    
+      <p>
+        Aquí encontramos los diferentes inputs que podemos encontrar de ionic.
+      </p>
+
+      <ion-input value="Por defecto"></ion-input>
+      <br>
+      <ion-input placeholder="Usuario"></ion-input>
+      <br>
+      <ion-input placeholder="Contraseña" type="password"></ion-input>
+      <br>
+      <ion-label position="floating">Escribe:</ion-label>
+      <ion-input></ion-input>
+      <br>
+      <ion-item>
+          <ion-label position="stacked">Etiqueta de línea</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+
+
+
+    </div>
+</ion-content>

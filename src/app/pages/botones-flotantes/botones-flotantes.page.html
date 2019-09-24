@@ -1,0 +1,36 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>Botones Flotantes</ion-title>
+          <ion-buttons slot="start">
+            <ion-back-button defaultHref="home"></ion-back-button>
+          </ion-buttons>
+        </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <div class="ion-padding">
+
+      <p>Estos botones son muy útiles por ejemplo para compartir algo en redes sociales:</p>
+
+      <ion-fab vertical="center" horizontal="center" slot="fixed">
+          <ion-fab-button>
+            <ion-icon name="share"></ion-icon>
+          </ion-fab-button>
+          <ion-fab-list side="top">
+            <ion-fab-button><ion-icon name="logo-whatsapp" color="success"></ion-icon></ion-fab-button>
+          </ion-fab-list>
+          <ion-fab-list side="bottom">
+            <ion-fab-button><ion-icon name="logo-facebook" color="primary"></ion-icon></ion-fab-button>
+          </ion-fab-list>
+          <ion-fab-list side="start">
+            <ion-fab-button><ion-icon name="logo-instagram" color="danger"></ion-icon></ion-fab-button>
+          </ion-fab-list>
+          <ion-fab-list side="end">
+            <ion-fab-button><ion-icon name="logo-twitter" color="primary"></ion-icon></ion-fab-button>
+          </ion-fab-list>
+        </ion-fab>
+
+    </div>
+
+</ion-content>
